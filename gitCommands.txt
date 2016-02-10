@@ -1,0 +1,30 @@
+Get Commands
+------------
+
+
+git clone <path>
+Clones a repo from GitHub to your local machine, you can do this in any folder
+
+
+To add a file to your GitHub rep use the following steps:
+
+
+1. Create a file on your local folder where your cloned repo resides
+2. git add <file> - adds your file to the repo (local only)
+3. git status - tracks local changes to your repo
+4. git commit -m "your message" - This step commits a file to the local repo with a personalized tracking message
+5. git push - pushes your file to GitHub
+
+
+To Pull a file down from GitHub:
+
+1. git pull - pulls files down from GitHub to your local repo folder
+
+
+In case of conflict:
+
+
+1. fix conflict
+2. add your files
+3. commit your files
+4. when commit screen comes up, to get out of it it's ESC : wq
