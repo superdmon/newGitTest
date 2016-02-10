@@ -27,4 +27,15 @@ In case of conflict:
 Git Branching / Merging
 -----------------------
 
+git checkout -b <name of branch>
 
+This also allows you to move between branches:
+git checkout master
+git checkout <name of branch>
+
+Do your updates / adds / commits
+
+Push branch up to GitHub
+git push origin <name of new branch>
+
+From there you can do new pull request on GitHub, you can also merge branches to the master and delete branches
